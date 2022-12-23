@@ -1,0 +1,307 @@
+@font-face {
+    font-family: bigShoulders;
+    src: url(./fonts/BigShouldersDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: LexendDeca;
+    src: url(./fonts/LexendDeca-Regular.ttf);
+}
+
+.sedans .suv .luxury {
+    margin: 0px;
+}
+
+.sedans {
+    font-family: 'bigShoulders';
+    font-size: 20;
+    color: white;
+    width: 20%;
+    height: 50%;
+    background-color: hsl(31, 77%, 52%);
+    position: fixed;
+    top: 13%;
+    left: 15%;
+    padding-top: 8%;
+    padding-left: 3%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sedansImg {
+    position: fixed;
+    top: 23%;
+    left: 17%;
+}
+
+.sedansText {
+    font-family: 'LexendDeca';
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    top: 40%;
+    left: 18%;
+}
+
+.sedansButon {
+    color: hsl(31, 77%, 52%);
+    font-family: 'LexendDeca';
+    background-color: white;
+    width: 10%;
+    height: 6%;
+    border: none;
+    border-radius: 30px;
+    position: fixed;
+    top: 69%;
+    left: 18%;
+    cursor: pointer;
+}
+
+.sedansButon:hover {
+    transition-duration: 0.4;
+    background-color: hsl(31, 90%, 30%);
+}
+
+.suv {
+    font-family: 'bigShoulders';
+    font-size: 20;
+    color: white;
+    width: 20%;
+    height: 50%;
+    background-color: hsl(184, 100%, 22%);
+    position: fixed;
+    top: 13%;
+    left: 38%;
+    padding-top: 8%;
+    padding-left: 3%;
+}
+
+.suvImg {
+    position: fixed;
+    top: 23%;
+    left: 40%;
+}
+
+.suvText {
+    font-family: 'LexendDeca';
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    top: 40%;
+    left: 41%;
+}
+
+.suvButon {
+    color: hsl(184, 100%, 22%);
+    font-family: 'LexendDeca';
+    background-color: white;
+    width: 10%;
+    height: 6%;
+    border: none;
+    border-radius: 30px;
+    position: fixed;
+    top: 69%;
+    left: 42%;
+    cursor: pointer;
+}
+
+.suvButon:hover {
+    transition-duration: 0.4;
+    background-color: hsl(184, 96%, 9%);
+}
+
+.luxury {
+    font-family: 'bigShoulders';
+    font-size: 20;
+    color: white;
+    width: 20%;
+    height: 50%;
+    background-color: hsl(179, 100%, 13%);
+    position: fixed;
+    top: 13%;
+    left: 61%;
+    padding-top: 8%;
+    padding-left: 3%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.luxuryImg {
+    position: fixed;
+    top: 23%;
+    left: 63%; 
+}
+
+.luxuryText {
+    font-family: 'LexendDeca';
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    top: 40%;
+    left: 64%;
+}
+
+.luxurysButon {
+    color: hsl(179, 100%, 13%);
+    font-family: 'LexendDeca';
+    background-color: white;
+    width: 10%;
+    height: 6%;
+    border: none;
+    border-radius: 30px;
+    position: fixed;
+    top: 69%;
+    left: 65%;
+    cursor: pointer;
+}
+
+.luxurysButon:hover {
+    transition-duration: 0.4;
+    background-color: hsl(180, 100%, 3%);
+}
+
+@media (max-width: 375px) {
+
+html {
+    overflow-y: scroll;
+}
+
+.sedans {
+    font-family: 'bigShoulders';
+    font-size: 20;
+    color: white;
+    width: 80%;
+    height: 40%;
+    background-color: hsl(31, 77%, 52%);
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    padding-top: 23%;
+    padding-left: 8%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+.sedansImg {
+    position: absolute;
+    top: 11%;
+    left: 13%;
+}
+
+.sedansText {
+    font-family: 'LexendDeca';
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 70%;
+    height: 20%;
+    position: absolute;
+    top: 26%;
+    left: 15%;
+}
+
+.sedansButon {
+    color: hsl(31, 77%, 52%);
+    font-family: 'LexendDeca';
+    background-color: white;
+    width: 40%;
+    height: 7%;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 48%;
+    left: 26%;
+}
+
+.suv {
+    font-family: 'bigShoulders';
+    font-size: 20;
+    color: white;
+    width: 80%;
+    height: 40%;
+    background-color: hsl(184, 100%, 22%);
+    position: absolute;
+    top: 57%;
+    left: 6%;
+    padding-top: 23%;
+    padding-left: 8%;
+
+}
+
+.suvImg {
+    position: absolute;
+    top: 63%;
+    left: 13%;
+}
+
+.suvText {
+    font-family: 'LexendDeca';
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 70%;
+    height: 20%;
+    position: absolute;
+    top: 78%;
+    left: 15%;
+}
+
+.suvButon {
+    color: hsl(184, 100%, 22%);
+    font-family: 'LexendDeca';
+    background-color: white;
+    width: 40%;
+    height: 7%;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 99.5%;
+    left: 26%;
+}
+
+.luxury {
+    font-family: 'bigShoulders';
+    font-size: 20;
+    color: white;
+    width: 80%;
+    height: 40%;
+    background-color: hsl(179, 100%, 13%);
+    position: absolute;
+    top: 109%;
+    left: 6%;
+    padding-top: 23%;
+    padding-left: 8%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+}
+
+.luxuryImg {
+    position: absolute;
+    top: 115%;
+    left: 13%; 
+}
+
+.luxuryText {
+    font-family: 'LexendDeca';
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 70%;
+    height: 20%;
+    position: absolute;
+    top: 130%;
+    left: 15%;
+}
+
+.luxurysButon {
+    color: hsl(179, 100%, 13%);
+    font-family: 'LexendDeca';
+    background-color: white;
+    width: 40%;
+    height: 7%;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 153%;
+    left: 26%;
+}
+}
